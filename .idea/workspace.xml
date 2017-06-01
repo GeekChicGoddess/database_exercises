@@ -58,8 +58,8 @@
       <file leaf-file-name="where_exercises.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/where_exercises.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -559,7 +559,7 @@
       <option name="presentableId" value="Default" />
       <updated>1496243074266</updated>
       <workItem from="1496243077231" duration="7153000" />
-      <workItem from="1496325318872" duration="8433000" />
+      <workItem from="1496325318872" duration="8798000" />
     </task>
     <task id="LOCAL-00001" summary="exercise complete">
       <created>1496246835150</created>
@@ -638,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496348995222</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5th part of additional where exercises complete">
+      <created>1496349086713</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1496349086713</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15586000" />
+    <option name="totallyTimeSpent" value="15951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="67" width="1440" height="873" extended-state="0" />
@@ -695,7 +702,8 @@
     <MESSAGE value="2nd part of additional where exercises complete" />
     <MESSAGE value="3rd part of additional where exercises complete" />
     <MESSAGE value="4th part of additional where exercises complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th part of additional where exercises complete" />
+    <MESSAGE value="5th part of additional where exercises complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th part of additional where exercises complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -833,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/where_exercises.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
           <folding />
         </state>
       </provider>
