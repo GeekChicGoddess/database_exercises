@@ -7,6 +7,6 @@ CREATE TABLE album (
   name VARCHAR (100) NOT NULL,
   releaes_date YEAR,
   sales DOUBLE ,
-  genre VARCHAR (25),
+  genre VARCHAR (50),
   PRIMARY KEY (id)
 );
