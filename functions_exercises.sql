@@ -4,3 +4,4 @@ SELECT emp_no, first_name, last_name, birth_date, hire_date, datediff(now(), hir
                               AND birth_date LIKE '%-12-25' ORDER BY hire_date DESC, birth_date;
 SELECT last_name, first_name, count(*) as nameCount FROM employees
 WHERE last_name  LIKE '%q%'AND last_name NOT LIKE '%qu%' GROUP BY last_name, first_name ORDER BY nameCount DESC ;
+SELECT concat(emp_no, '--', last_name, ', ', first_name) as full_name, birth_date as DOB FROM employees LIMIT 10;
