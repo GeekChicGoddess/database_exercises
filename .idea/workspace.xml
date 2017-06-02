@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/group_by_exercise.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+              <caret line="1" column="110" lean-forward="true" selection-start-line="1" selection-start-column="110" selection-end-line="1" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -582,7 +582,7 @@
       <option name="presentableId" value="Default" />
       <updated>1496243074266</updated>
       <workItem from="1496243077231" duration="7153000" />
-      <workItem from="1496325318872" duration="12273000" />
+      <workItem from="1496325318872" duration="12401000" />
     </task>
     <task id="LOCAL-00001" summary="exercise complete">
       <created>1496246835150</created>
@@ -717,11 +717,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496413060081</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add search and group by last_name">
+      <created>1496413238859</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1496413238859</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19426000" />
+    <option name="totallyTimeSpent" value="19554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="87" width="1440" height="873" extended-state="0" />
@@ -740,7 +747,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50832266" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50832266" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095135905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102288984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -781,7 +788,8 @@
     <MESSAGE value="4th order exercise complete" />
     <MESSAGE value="5th order exercise complete" />
     <MESSAGE value="update title search to sort alphabetically" />
-    <option name="LAST_COMMIT_MESSAGE" value="update title search to sort alphabetically" />
+    <MESSAGE value="add search and group by last_name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search and group by last_name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,7 +944,7 @@
     <entry file="file://$PROJECT_DIR$/group_by_exercise.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <caret line="1" column="110" lean-forward="true" selection-start-line="1" selection-start-column="110" selection-end-line="1" selection-end-column="110" />
           <folding />
         </state>
       </provider>
