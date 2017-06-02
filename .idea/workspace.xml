@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b16db63-cd66-4a35-a6bc-6c1a12a2e80f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/group_by_exercise.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_by_exercises.sql" afterPath="$PROJECT_DIR$/order_by_exercises.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_by_exercises.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order_by_exercises.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order_by_exercises.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group_by_exercise.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/group_by_exercise.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -99,6 +109,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c83e2ef5-7033-4b33-907f-afc4130c2875/console.sql" />
         <option value="$PROJECT_DIR$/where_exercises.sql" />
         <option value="$PROJECT_DIR$/order_by_exercises.sql" />
+        <option value="$PROJECT_DIR$/group_by_exercise.sql" />
       </list>
     </option>
   </component>
@@ -109,7 +120,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="67" />
+    <option name="x" value="23" />
+    <option name="y" value="87" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -570,7 +582,7 @@
       <option name="presentableId" value="Default" />
       <updated>1496243074266</updated>
       <workItem from="1496243077231" duration="7153000" />
-      <workItem from="1496325318872" duration="10198000" />
+      <workItem from="1496325318872" duration="12024000" />
     </task>
     <task id="LOCAL-00001" summary="exercise complete">
       <created>1496246835150</created>
@@ -684,14 +696,21 @@
       <option name="project" value="LOCAL" />
       <updated>1496352823108</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="5th order exercise complete">
+      <created>1496352924465</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1496352924465</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17351000" />
+    <option name="totallyTimeSpent" value="19177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="67" width="1440" height="873" extended-state="0" />
+    <frame x="23" y="87" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -707,7 +726,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50832266" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50832266" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095135905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102288984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -746,7 +765,8 @@
     <MESSAGE value="2nd order exercise complete" />
     <MESSAGE value="3rd order exercise complete" />
     <MESSAGE value="4th order exercise complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th order exercise complete" />
+    <MESSAGE value="5th order exercise complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th order exercise complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -894,6 +914,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_by_exercise.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
