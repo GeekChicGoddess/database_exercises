@@ -1,3 +1,5 @@
+use employees;
+
 SELECT departments.dept_name as 'Department Name', concat(employees.first_name, ' ',employees.last_name) as 'Department Manager'
 FROM employees
 JOIN dept_manager ON employees.emp_no = dept_manager.emp_no
@@ -23,3 +25,15 @@ FROM employees
   join salaries ON employees.emp_no = salaries.emp_no
 WHERE salaries.to_date > now() AND dept_manager.to_date > now()
 ORDER BY `Department Name`;
+
+
+
+SELECT concat(employees.first_name, ' ',employees.last_name) as 'Employee Name',
+departments.dept_name as 'Department Name',
+  concat(managers.first_name, ' ',managers.last_name) as 'Manager Name'
+FROM employees as managers
+  JOIN dept_manager ON managers.emp_no = dept_manager.emp_no
+  JOIN departments ON dept_manager.dept_no = departments.dept_no
+  RIGHT JOIN dept_emp on dept_manager.dept_no = dept_emp.dept_no
+  JOIN employees on dept_emp.emp_no = employees.emp_no
+WHERE dept_manager.to_date > now()
