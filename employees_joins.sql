@@ -7,6 +7,17 @@ JOIN departments ON dept_manager.dept_no = departments.dept_no
 WHERE dept_emp.to_date > now() and employees.gender = 'F'
 ORDER BY `Department Name`;
 
+--   teacher solution----------------
+select d.dept_name, e.first_name, e.last_name
+from deparments as d
+join dept_emp as de on d.dept_no = dept_no
+join employees as e on e.emp_no = de.emp_no
+join dept_manager as dm on e.emp_no = dm.emp_no
+order by d.dept_name
+
+
+
+
 
 SELECT titles.title as 'Title', count(*) as Count
 FROM employees
@@ -25,6 +36,7 @@ FROM employees
   join salaries ON employees.emp_no = salaries.emp_no
 WHERE salaries.to_date > now() AND dept_manager.to_date > now()
 ORDER BY `Department Name`;
+
 
 
 
